@@ -1,0 +1,23 @@
+{
+	"name": "carbonit-treasure-hunt",
+	"version": "1.0.0",
+	"description": "a treasure hunt project for carbon-IT",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ikescd/carbonIT-treasure-hunt.git"
+	},
+	"author": "Sarah Delmas",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Ikescd/carbonIT-treasure-hunt/issues"
+	},
+	"homepage": "https://github.com/Ikescd/carbonIT-treasure-hunt#readme",
+	"dependencies": {
+		"nodemon": "^2.0.15"
+	}
+}

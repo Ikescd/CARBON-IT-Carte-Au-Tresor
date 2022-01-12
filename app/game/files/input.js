@@ -1,6 +1,6 @@
 'use strict';
 const fs = require('fs');
-const file = './input.txt';
+const file = './files/input.txt';
 const input = fs
 	.readFileSync(file, { encoding: 'utf8', flag: 'r' })
 	.split('\n');

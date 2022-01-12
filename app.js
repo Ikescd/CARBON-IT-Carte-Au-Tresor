@@ -1,9 +1,9 @@
 'use strict';
 
 const { createMap } = require('./app/game/map/createMap');
-const { checkInput } = require('./app/game/input');
+const { checkInput } = require('./app/game/files/input');
 const { createGame } = require('./app/game/adventurer/actions');
-const { createOutput } = require('./app/game/output');
+const { createOutput } = require('./app/game/files/output');
 
 const app = () => {
 	checkInput()

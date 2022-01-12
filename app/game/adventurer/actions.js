@@ -1,6 +1,6 @@
 'use strict';
 
-const { gameData } = require('../input');
+const { gameData } = require('../files/input');
 
 const movesLetter = {
 	MOVE: 'A',

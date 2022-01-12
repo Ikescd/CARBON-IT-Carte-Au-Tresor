@@ -1,5 +1,5 @@
 const fs = require('fs');
-const file = './output.txt';
+const file = './files/output.txt';
 const { gameData } = require('./input');
 
 const createOutput = () => {
